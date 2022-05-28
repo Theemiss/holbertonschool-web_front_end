@@ -30,7 +30,6 @@ body {
 
 a {
     color: var(--text-color);
-    font-weight: var(--font-weight-bold);
 
 
 }
@@ -42,6 +41,8 @@ h4,
 h5,
 h6 {
     font-family: var(--font-family-title);
+    font-weight: var(--font-weight-bold);
+
 }
 
 .visually-hidden {
