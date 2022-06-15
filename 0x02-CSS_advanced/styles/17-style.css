@@ -77,7 +77,7 @@ h6 {
 }
 .section-footer {
   padding: var(--section-footer-padding);
-}
+  text-align: var(--section-footer-align);}
 
 .section-title {
   font-family: var(--font-family-title);
@@ -114,6 +114,10 @@ a:hover {
 a:active {
   background-color: var(--color-light-grey);
 }
+.footer {
+    padding: var(--section-body-padding);
+  }
+  
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -262,6 +266,3 @@ template {
   display: none;
 }
 /*# sourceMappingURL=normalize.min.css.map */
-.footer {
-  padding: var(--section-body-padding);
-}
